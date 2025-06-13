@@ -1,0 +1,19 @@
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://quotex.ps/sitemap.xml
+
+# Disallow admin areas
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow important pages
+Allow: /
+Allow: /sobre
+Allow: /como-funciona
+Allow: /demo
+Allow: /estrategias
+Allow: /blog
