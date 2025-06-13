@@ -2,5 +2,8 @@
   "buildCommand": "cd app && npm install --force && npm run build",
   "outputDirectory": "app/.next",
   "framework": "nextjs",
-  "installCommand": "cd app && npm install --force"
+  "installCommand": "cd app && npm install --force",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/app/$1" }
+  ]
 }
